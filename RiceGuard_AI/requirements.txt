@@ -1,0 +1,11 @@
+# Lower bounds only. TODO (Member 6): after everyone's environment works,
+# run `pip freeze` in a clean venv and pin exact versions here.
+tensorflow>=2.15
+numpy
+pillow
+pandas
+imagehash
+scikit-learn
+matplotlib
+streamlit
+pytest

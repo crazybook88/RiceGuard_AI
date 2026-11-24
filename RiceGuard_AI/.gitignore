@@ -1,0 +1,20 @@
+# Data & models (share via Google Drive)
+dataset/raw/*
+dataset/cleaned/*
+dataset/train/*
+dataset/validation/*
+dataset/test/*
+!dataset/**/.gitkeep
+model/saved_models/*
+!model/saved_models/.gitkeep
+*.keras
+*.h5
+# Local runtime files
+data/
+*.csv
+.env
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
