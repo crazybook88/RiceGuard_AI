@@ -32,7 +32,7 @@ MAX_FILE_SIZE_MB: float = 10.0
 
 # "mobilenet_v2" -> same maths as tf.keras.applications.mobilenet_v2.preprocess_input
 # "rescale"      -> pixel / 255.0   (use for the Custom CNN)
-PREPROCESS_MODE: str = "mobilenet_v2"
+PREPROCESS_MODE: str = "rescale"
 
 # ---------------------------------------------------------------- classes
 # Baseline ONLY. After training, class_indices.json (written by train_model.py)
